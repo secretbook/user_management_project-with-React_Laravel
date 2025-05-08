@@ -1,0 +1,90 @@
+/* Custom Styles for the App */
+.App {
+  text-align: center;
+}
+
+/* Custom navbar links */
+.navbar-nav .nav-item .nav-link {
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+/* Navbar link hover effect */
+.navbar-nav .nav-item .nav-link:hover {
+  color: #ffcc00; /* Golden color on hover */
+}
+
+/* Custom button style for Home, Create, Edit, View pages */
+.btn-custom {
+  background-color: #007bff;
+  color: white;
+  border-radius: 25px;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect for custom button */
+.btn-custom:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Add some space between the icon and text in custom button */
+.btn-custom i {
+  margin-right: 8px;
+}
+
+/* Optional: Adjust the navbar brand for better visibility on larger screens */
+.navbar-brand {
+  font-size: 1.3rem;  /* Reduced size for better compactness */
+  font-weight: bold;
+}
+
+/* Ensuring better spacing in the navbar for links */
+.navbar-nav .nav-item {
+  margin-right: 12px; /* Reduced margin to make the navbar more compact */
+}
+
+/* Navbar Styling */
+.navbar {
+  padding: 0.5rem 1rem; /* Reduced padding for compact navbar */
+  font-size: 1rem;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #282c34;
+  color: white;
+  padding: 0.5rem 0; /* Reduced padding for a smaller footer */
+  font-size: 0.8rem;  /* Slightly smaller font for footer */
+  text-align: center;
+}
+
+/* Responsive Design for smaller screens */
+@media (max-width: 576px) {
+  .navbar-brand {
+    font-size: 1.2rem; /* Smaller font size on mobile */
+  }
+  .navbar-nav .nav-item {
+    margin-right: 8px;
+  }
+}
+
+/* Ensure the layout only affects the View.js page */
+.view-page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full viewport height */
+}
+
+/* Main content wrapper should only grow/shrink to fill available space */
+.view-page-container .content {
+  flex: 1; /* Push the footer to the bottom without resizing the card */
+}
+
+/* Ensure the card's size remains unchanged */
+.view-page-container .card {
+  max-width: 500px; /* Ensures the card stays the same size */
+  width: 100%;
+}

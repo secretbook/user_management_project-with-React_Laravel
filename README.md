@@ -1,5 +1,6 @@
 #User_Management_Project
-1.This is my first project with the using *React* for hashtag#Frontend and hashtag#Laravel_API for *Backend*
+
+1.This is my first project with the using *React* for *Frontend* and *Laravel_API* for *Backend*
 2.Here we have simple functionality of Create, Read, Update and Delete (*CRUD*) with the *Validations*
 3. Here i used *mysql* for the database
 4. Here i used *SweetAlert2* for the showing alerts
